@@ -1,17 +1,15 @@
 {
-  "name": "tailadmin-react-free",
+  "name": "minithon-react",
   "private": true,
   "version": "1.0.5",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --port 5000",
     "build": "vite build",
     "preview": "vite preview"
   },
   "author": {
-    "name": "TailAdmin",
-    "email": "hello@tailadmin.com",
-    "url": "https://tailadmin.com"
+    "name": "Jetha ke Jabaaz"
   },
   "dependencies": {
     "@windmill/react-ui": "^0.6.0",
@@ -31,6 +29,7 @@
     "react-router-dom": "^6.14.2",
     "react-toastify": "^9.1.3",
     "sort-by": "^0.0.2",
+    "tw-elements": "^1.0.0-rc.1",
     "windmill": "^0.1.3"
   },
   "devDependencies": {

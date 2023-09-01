@@ -1,6 +1,19 @@
+import {useEffect} from 'react'
+import {
+  Chart,
+  initTE,
+} from "tw-elements";
+
 const CardOne = () => {
+
+  useEffect(()=>{
+    initTE({ Chart });
+
+  })
   return (
-    <div className="rounded-sm border border-stroke bg-white py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark">
+    <div className="rounded-sm border border-stroke bg-white py-6 px-7.5 shadow-default dark:border-strokedark dark:bg-boxdark"
+    style={{height: '600px'}}
+    >
       <div className="flex h-11.5 w-11.5 items-center justify-center rounded-full bg-meta-2 dark:bg-meta-4">
         <svg
           className="fill-primary dark:fill-white"
@@ -20,8 +33,11 @@ const CardOne = () => {
           />
         </svg>
       </div>
+      <h4 className="text-title-md font-bold text-black dark:text-white">
+        Radiation Exposure
+      </h4>
 
-      <div className="mt-4 flex items-end justify-between">
+      {/* <div className="mt-4 flex items-end justify-between">
         <div>
           <h4 className="text-title-md font-bold text-black dark:text-white">
             $3.456K
@@ -45,7 +61,18 @@ const CardOne = () => {
             />
           </svg>
         </span>
-      </div>
+      </div> */}
+      <div className="mx-auto w-3/5 overflow-hidden" 
+      style={{ width: '100%'}}
+      >
+      <canvas
+        data-te-chart="radar"
+        data-te-dataset-label="Exposure"
+        data-te-labels="['X-rays', 'Gamma Rays' , 'Aplha Partical' , 'Infrared Rays' , 'UV Rays' , 'Beta Rays' , 'Ionized ']"
+        data-te-dataset-data="[2112, 2343, 2545, 3423, 2365, 1985, 987]"
+        >
+      </canvas>
+    </div>
     </div>
   );
 };
