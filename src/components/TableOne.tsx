@@ -35,7 +35,7 @@ const TableOne = () => {
           </div>
           <div className="hidden p-2.5 text-center sm:block xl:p-5">
             <h5 className="text-sm font-medium uppercase xsm:text-base">
-              GST
+              T
             </h5>
           </div>
         </div>
@@ -51,7 +51,7 @@ const TableOne = () => {
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
-            <p className="text-meta-3">$5,768</p>
+            <p className="text-meta-3">5,768</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
@@ -76,7 +76,7 @@ const TableOne = () => {
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
-            <p className="text-meta-3">$4,635</p>
+            <p className="text-meta-3">4,635</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
@@ -99,7 +99,7 @@ const TableOne = () => {
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
-            <p className="text-meta-3">$4,290</p>
+            <p className="text-meta-3">4,290</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
@@ -122,7 +122,7 @@ const TableOne = () => {
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
-            <p className="text-meta-3">$3,580</p>
+            <p className="text-meta-3">3,580</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">
@@ -147,7 +147,7 @@ const TableOne = () => {
           </div>
 
           <div className="flex items-center justify-center p-2.5 xl:p-5">
-            <p className="text-meta-3">$2,740</p>
+            <p className="text-meta-3">2,740</p>
           </div>
 
           <div className="hidden items-center justify-center p-2.5 sm:flex xl:p-5">

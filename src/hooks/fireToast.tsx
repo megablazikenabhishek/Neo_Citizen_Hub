@@ -51,19 +51,7 @@ const createToast=(title: string, msg: string, type: number)=>{toast.custom((t) 
       </div>
     </div>
   ))};
-// let dataJSON: any;
-// let headers = new Headers();
-// headers.append('Access-Control-Allow-Origin', 'http://127.0.0.1:8000');
-// headers.append("Access-Control-Allow-Methods", 'POST');
-// headers.append("Access-Control-Allow-Headers", 'Content-Type, Authorization');
-// fetch("http://127.0.0.1:8000/data",{method:'POST',headers:headers})
-//   .then(response => {
-//     return response
-//   })
-//   .then(data => {
-//     console.log(data);
-//     dataJSON=data;
-//   })
+
 const fireToast = () => {
 const alertSettings=localStorage.getItem("alertSettings");
 if (alertSettings){

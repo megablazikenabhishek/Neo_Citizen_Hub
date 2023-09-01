@@ -42,7 +42,7 @@ const CardFour = () => {
       >
   <canvas
     data-te-chart="line"
-    data-te-dataset-label="Traffic"
+    data-te-dataset-label="mmHg"
     data-te-labels="['Monday', 'Tuesday' , 'Wednesday' , 'Thursday' , 'Friday' , 'Saturday' , 'Sunday ']"
     data-te-dataset-data="[151, 225, 999, 166, 989, 200, 555]">
   </canvas>

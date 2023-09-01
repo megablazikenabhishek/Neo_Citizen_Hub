@@ -28,7 +28,7 @@ module.exports = {
       whiten: '#F1F5F9',
       whiter: '#F5F7FD',
       boxdark: '#24303F',
-      'boxdark-2': '#1A222C',
+      'boxdark-2': 'linear-gradient(114deg, rgb(0, 0, 4) 0%, rgba(213, 4, 255, 0.938) 52%, rgba(0,212,255,1) 100%)',
       strokedark: '#2E3A47',
       'form-strokedark': '#3d4d60',
       'form-input': '#1d2a39',
