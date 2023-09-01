@@ -14,6 +14,7 @@ function App() {
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
+    localStorage.setItem("theme", "dark");
     setTimeout(() => setLoading(false), 1000);
   }, []);
 
